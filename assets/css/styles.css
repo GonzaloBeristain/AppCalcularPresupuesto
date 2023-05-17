@@ -1,0 +1,84 @@
+body {
+    background-color: rgba(129, 17, 17, 0.925);
+}
+
+main {
+    background-color: rgba(129, 17, 17, 0.418);
+    padding: 10px;
+}
+
+.presupuesto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 60px;
+}
+
+#cuadroPresupuesto, #numerosPresupuesto, #cuadroGastos, #numerosGastos {
+    background: linear-gradient(315deg, rgba(112,26,22,1) 0%, rgba(168,35,38,1) 65%, rgba(70,15,26,1) 90%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid rgb(187, 181, 181)
+}
+
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.mover {
+    margin-left: 10px;
+}
+
+.inputApp {
+    background-color: rgb(227, 230, 233);
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 4px solid rgb(121, 11, 11);
+    border-left: 4px solid rgb(117, 4, 4);
+}
+
+.inputApp:focus {
+    border: 1px solid rgb(255, 240, 240);
+    outline: none;
+}
+
+#botonBorrarTodo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(80, 73, 73);
+    color: rgb(216, 222, 226);
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+#botonCalculo, #botonGasto {
+    margin-left: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(80, 73, 73);
+    color: rgb(216, 222, 226);
+    font-size: 21px;
+    border: 2px solid black;
+}
+
+#botonCalculo:hover, #botonGasto:hover, #botonBorrarTodo:hover {
+    background-color: rgb(135, 138, 141);
+}
+
+#botonCalculo:active, #botonGasto:active, #botonBorrarTodo:active {
+    background-color: rgb(34, 35, 36);
+    color: rgb(121, 24, 24);
+    border-bottom: 3px solid rgb(73, 6, 6);
+    border-right: 3px solid rgb(73, 6, 6);
+}
